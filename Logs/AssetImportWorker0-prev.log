@@ -22,59 +22,59 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49928
+50623
 Successfully changed project path to: /Users/jakubpw/Desktop/studies/sekstan
 /Users/jakubpw/Desktop/studies/sekstan
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 62.90 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 48.21 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path /Users/jakubpw/Desktop/2020.3.25f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/jakubpw/Desktop/studies/sekstan/Assets
 GfxDevice: creating device client; threaded=0
-2022-01-26 15:53:23.511 Unity[1698:79224] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
-2022-01-26 15:53:23.512 Unity[1698:79224] Metal devices available: 2
-2022-01-26 15:53:23.512 Unity[1698:79224] 0: AMD Radeon Pro 5500M (high power)
-2022-01-26 15:53:23.512 Unity[1698:79224] 1: Intel(R) UHD Graphics 630 (low power)
-2022-01-26 15:53:23.512 Unity[1698:79224] Using device AMD Radeon Pro 5500M (high power)
+2022-01-26 16:45:50.897 Unity[1928:104327] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+2022-01-26 16:45:50.897 Unity[1928:104327] Metal devices available: 2
+2022-01-26 16:45:50.897 Unity[1928:104327] 0: AMD Radeon Pro 5500M (high power)
+2022-01-26 16:45:50.897 Unity[1928:104327] 1: Intel(R) UHD Graphics 630 (low power)
+2022-01-26 16:45:50.897 Unity[1928:104327] Using device AMD Radeon Pro 5500M (high power)
 Initializing Metal device caps: AMD Radeon Pro 5500M
 Initialize mono
 Mono path[0] = '/Users/jakubpw/Desktop/2020.3.25f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/jakubpw/Desktop/2020.3.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Users/jakubpw/Desktop/2020.3.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56698
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Users/jakubpw/Desktop/2020.3.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Users/jakubpw/Desktop/2020.3.25f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003599 seconds.
+Registered in 0.000699 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 43.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 45.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.706 seconds
+- Completed reload, in  0.718 seconds
 Domain Reload Profiling:
-	ReloadAssembly (706ms)
-		BeginReloadAssembly (50ms)
+	ReloadAssembly (718ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (567ms)
-			LoadAssemblies (51ms)
+		EndReloadAssembly (572ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (214ms)
+			SetupTypeCache (215ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (212ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (215ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (43ms)
+				RefreshPlugins (45ms)
 				BeforeProcessingInitializeOnLoad (9ms)
-				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadAttributes (120ms)
 				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -82,44 +82,44 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008110 seconds.
+Registered in 0.002554 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.295 seconds
+- Completed reload, in  1.368 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1297ms)
-		BeginReloadAssembly (184ms)
+	ReloadAssembly (1370ms)
+		BeginReloadAssembly (178ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1034ms)
-			LoadAssemblies (120ms)
+		EndReloadAssembly (1118ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (388ms)
+			SetupTypeCache (446ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (338ms)
+			SetupLoadedEditorAssemblies (370ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (252ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.010130 seconds.
+Validating Project structure ... 0.010110 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.024643 seconds.
+Upgrading shader files ...0.022446 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -133,14 +133,14 @@ Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1895 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 187.8 MB.
 System memory in use after: 187.6 MB.
 
 Unloading 138 unused Assets to reduce memory usage. Loaded Objects now: 2367.
-Total: 3.170695 ms (FindLiveObjects: 0.181621 ms CreateObjectMapping: 0.078755 ms MarkObjects: 2.704678 ms  DeleteObjects: 0.204977 ms)
+Total: 3.267527 ms (FindLiveObjects: 0.158530 ms CreateObjectMapping: 0.069188 ms MarkObjects: 2.827535 ms  DeleteObjects: 0.211534 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -154,1637 +154,137 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Environment/Cloud2.png
-  artifactKey: Guid(8770f05271826164aadd939d4728d3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Environment/Cloud2.png using Guid(8770f05271826164aadd939d4728d3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97befbda1a3bf3de874e587ce402d1bb') in 1.316967 seconds 
-  Import took 1.324848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000689 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Environment/Cloud1.png
-  artifactKey: Guid(3dd7a0a47117acb40adbfe0778729b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Environment/Cloud1.png using Guid(3dd7a0a47117acb40adbfe0778729b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701abb8f66047baa47c2862040802f44') in 0.013280 seconds 
-  Import took 0.017191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Environment/Fence.png
-  artifactKey: Guid(a53d2c44340a6d14ea260ceefba9a1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Environment/Fence.png using Guid(a53d2c44340a6d14ea260ceefba9a1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec104a7ba792b22b63a5406dc80c3d29') in 0.063485 seconds 
-  Import took 0.068011 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Environment/HouseRoof.png
-  artifactKey: Guid(b694b22057cf35c4e96748f66d3f1f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Environment/HouseRoof.png using Guid(b694b22057cf35c4e96748f66d3f1f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6462a16bd46ce197a13ac167a5a94fa5') in 0.013711 seconds 
-  Import took 0.017478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Environment/static environment objects.png
-  artifactKey: Guid(e10c13642d970a64cbfb16f898fcd46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Environment/static environment objects.png using Guid(e10c13642d970a64cbfb16f898fcd46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fb585b48c84d585f6086cbe1ab5041') in 0.047512 seconds 
-  Import took 0.050812 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Environment/RockCliff.png
-  artifactKey: Guid(b63a2439c80a4fe45bfe85f860f4b8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Environment/RockCliff.png using Guid(b63a2439c80a4fe45bfe85f860f4b8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34724486498f8b051c1b4ddae2876b88') in 0.022449 seconds 
-  Import took 0.025495 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Environment/House.png
-  artifactKey: Guid(8a9662b554744da4e97ed5bba5353115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Environment/House.png using Guid(8a9662b554744da4e97ed5bba5353115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5dd6d19b2b490289335ab45d0a8c2b') in 0.104427 seconds 
-  Import took 0.108059 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Environment/HouseChimney.png
-  artifactKey: Guid(abdcf40be89574346bcdb8a45022ba72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Environment/HouseChimney.png using Guid(abdcf40be89574346bcdb8a45022ba72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e56a9ce55862e97d63bebba40f96316') in 0.013165 seconds 
-  Import took 0.016344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Environment/Cloud3.png
-  artifactKey: Guid(f3fd60347f10d1f46aa6495101e7de38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Environment/Cloud3.png using Guid(f3fd60347f10d1f46aa6495101e7de38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a696079b54e76891ef43cf7fa0e21d') in 0.015074 seconds 
-  Import took 0.018289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Environment/New Sprite Atlas.spriteatlas
-  artifactKey: Guid(177a29c577cb0485bad939a618de52ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Environment/New Sprite Atlas.spriteatlas using Guid(177a29c577cb0485bad939a618de52ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c05d782a80a5c098fece799816858cc') in 1.372102 seconds 
-  Import took 1.378277 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Environment/Items.png
-  artifactKey: Guid(a4dbce958f01af8489942a973bfe20c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Environment/Items.png using Guid(a4dbce958f01af8489942a973bfe20c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede3edeb04b2f5f601db734d26a55ed6') in 0.036418 seconds 
-  Import took 0.039889 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Environment/Pipeline_Walkpath.png
-  artifactKey: Guid(4567a16d0e0692048b18bfbb59a5b426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Environment/Pipeline_Walkpath.png using Guid(4567a16d0e0692048b18bfbb59a5b426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f1099754cbbd6d242b14a1f18d3ed8') in 0.064998 seconds 
-  Import took 0.069319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Environment/Pipeline_StoneWalkpath.png
-  artifactKey: Guid(b2cf06612d923d6438d12b0d3a2c7ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Environment/Pipeline_StoneWalkpath.png using Guid(b2cf06612d923d6438d12b0d3a2c7ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '696519955c81585d8aade1606b8063ae') in 0.059636 seconds 
-  Import took 0.063482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.327201 seconds.
-  path: Assets/Creator Kit - RPG/Scenes/BlankScene.unity
-  artifactKey: Guid(6f7f323fbafea47d6b437a00d0d10d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Scenes/BlankScene.unity using Guid(6f7f323fbafea47d6b437a00d0d10d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81d8269b14306e5bd1ea65bfbf2fbf5') in 0.001680 seconds 
-  Import took 0.005528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.792822 seconds.
-  path: Assets/Creator Kit - RPG/Scenes/SampleScene.unity
-  artifactKey: Guid(2ea7383a0a8af431080e0aa251ee7115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Scenes/SampleScene.unity using Guid(2ea7383a0a8af431080e0aa251ee7115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3975f8321df3010fc49de311bedab0aa') in 0.001496 seconds 
-  Import took 0.005794 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.448732 seconds.
-  path: Assets/Creator Kit - RPG/Prefabs/Character.prefab
-  artifactKey: Guid(84535a21e4ab6412690b5fa8acc3908e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Prefabs/Character.prefab using Guid(84535a21e4ab6412690b5fa8acc3908e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0471fd70cd4286b798b2eb3dc1d51220') in 0.373376 seconds 
-  Import took 0.379864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Creator Kit - RPG/Prefabs/UI Camera.prefab
-  artifactKey: Guid(fb58dc84dca7b49f99bde3835c80609b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Prefabs/UI Camera.prefab using Guid(fb58dc84dca7b49f99bde3835c80609b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea52e124bcfc8f3323fbffb694c0bb9') in 0.007053 seconds 
-  Import took 0.009966 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Creator Kit - RPG/Prefabs/MessageBar.prefab
-  artifactKey: Guid(81816288a86af46c598e1fa3b10e24a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Prefabs/MessageBar.prefab using Guid(81816288a86af46c598e1fa3b10e24a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f109656a789fd8c19e7f142ab41c20') in 0.059399 seconds 
-  Import took 0.062484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Creator Kit - RPG/Prefabs/Main Camera.prefab
-  artifactKey: Guid(1c14ebde4b5e54881a67b686f46e6b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Prefabs/Main Camera.prefab using Guid(1c14ebde4b5e54881a67b686f46e6b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed3aa9bc19051327ec82b96a7bfaf59') in 0.005671 seconds 
-  Import took 0.008643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Creator Kit - RPG/Prefabs/Tilemaps.prefab
-  artifactKey: Guid(a6ecdc63374074e6eb42a738a5683a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Prefabs/Tilemaps.prefab using Guid(a6ecdc63374074e6eb42a738a5683a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7b1ff5e8be30d9690e4c3dd3c4ae68') in 0.011957 seconds 
-  Import took 0.015307 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Creator Kit - RPG/Prefabs/Grid.prefab
-  artifactKey: Guid(9cfc23e1a92d54df288065697ba3e2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Prefabs/Grid.prefab using Guid(9cfc23e1a92d54df288065697ba3e2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e21b390bda819677c6ab45e19a495fb') in 0.039287 seconds 
-  Import took 0.043557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Creator Kit - RPG/Prefabs/Controllers.prefab
-  artifactKey: Guid(d96c0846c7d644f72bfbf301de1def5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Prefabs/Controllers.prefab using Guid(d96c0846c7d644f72bfbf301de1def5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feccaa0b3bf9defd26f9fd3b124bb466') in 0.022182 seconds 
-  Import took 0.025535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Creator Kit - RPG/Prefabs/DialogController.prefab
-  artifactKey: Guid(ab3f7178010354d87a5016c7d6b23a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Prefabs/DialogController.prefab using Guid(ab3f7178010354d87a5016c7d6b23a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fccd462b3a911e999b10c31b6c3a2e62') in 0.026013 seconds 
-  Import took 0.029497 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Creator Kit - RPG/Prefabs/HouseOpenDoor.prefab
-  artifactKey: Guid(8d9e5ee92a6bccc4892e3ebb23cc4766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Prefabs/HouseOpenDoor.prefab using Guid(8d9e5ee92a6bccc4892e3ebb23cc4766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4a4d80e85f302f20f1175222bdb718') in 0.018393 seconds 
-  Import took 0.021714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Creator Kit - RPG/Prefabs/Inventory.prefab
-  artifactKey: Guid(7c53998562858411aa85d8e0c4bc1333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Prefabs/Inventory.prefab using Guid(7c53998562858411aa85d8e0c4bc1333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2377f2d784a3ab984a71d5fabb9cf0f6') in 0.028178 seconds 
-  Import took 0.031701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Creator Kit - RPG/Prefabs/InventoryDialog.prefab
-  artifactKey: Guid(9c7cbb01d716340ab97a9c902e59ccee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Prefabs/InventoryDialog.prefab using Guid(9c7cbb01d716340ab97a9c902e59ccee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e0c0f930200949fa67200f0aaf3f93') in 0.025142 seconds 
-  Import took 0.028751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Creator Kit - RPG/Prefabs/HouseRoof.prefab
-  artifactKey: Guid(4ca9604554bc54f608984cba5088222e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Prefabs/HouseRoof.prefab using Guid(4ca9604554bc54f608984cba5088222e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc030e0a5418fb5720ac04fc025879b') in 0.016107 seconds 
-  Import took 0.020576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Creator Kit - RPG/Prefabs/HouseChimney.prefab
-  artifactKey: Guid(4d6bc847403394c328ca695ffeb4a209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Prefabs/HouseChimney.prefab using Guid(4d6bc847403394c328ca695ffeb4a209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d1fc7350067887e91d73a02f6b0a67') in 0.011332 seconds 
-  Import took 0.015026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.224448 seconds.
-  path: Assets/Creator Kit - RPG/Materials/Cutscene.mat
-  artifactKey: Guid(0bc281edaa3184ba8b57a35c2c5166fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Materials/Cutscene.mat using Guid(0bc281edaa3184ba8b57a35c2c5166fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f102e768fafd2d3775769668b184d6') in 0.210560 seconds 
-  Import took 0.216437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Creator Kit - RPG/Materials/Sprites.mat
-  artifactKey: Guid(e129413db05d94ad28811d643da04b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Materials/Sprites.mat using Guid(e129413db05d94ad28811d643da04b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd396904a0b1f4818e63043c89634eb6b') in 0.009051 seconds 
-  Import took 0.011832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.826740 seconds.
-  path: Assets/Creator Kit - RPG/Gameplay Prefabs/InventoryItem.prefab
-  artifactKey: Guid(2a657642475934620a07fd2e829b35d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Gameplay Prefabs/InventoryItem.prefab using Guid(2a657642475934620a07fd2e829b35d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec737a4004ec9ab7d7779cf8495e4b0') in 0.009614 seconds 
-  Import took 0.013719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Creator Kit - RPG/Gameplay Prefabs/StoryItem.prefab
-  artifactKey: Guid(c14338f3a43e548bd89e6e11c7bcb803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Gameplay Prefabs/StoryItem.prefab using Guid(c14338f3a43e548bd89e6e11c7bcb803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6b4801f78f189937ecd1284af300d6') in 0.005810 seconds 
-  Import took 0.009842 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Creator Kit - RPG/Gameplay Prefabs/NPC.prefab
-  artifactKey: Guid(74b5c6b26f0fc4028b9aac1a7a36767d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Gameplay Prefabs/NPC.prefab using Guid(74b5c6b26f0fc4028b9aac1a7a36767d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b50935a5dd1a0bb3b396827d18471ea') in 0.019655 seconds 
-  Import took 0.023503 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.864430 seconds.
-  path: Assets/Creator Kit - RPG/Audio/AudioMixer.mixer
-  artifactKey: Guid(757bde2b477994d60bfff9141343ce02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Audio/AudioMixer.mixer using Guid(757bde2b477994d60bfff9141343ce02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1c4a5c352cc7cc00a032b8ecaf76f1') in 0.166875 seconds 
-  Import took 0.172762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Creator Kit - RPG/Audio/BGM_Item.ogg
-  artifactKey: Guid(d617102f0067466459a5a73c418501e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Audio/BGM_Item.ogg using Guid(d617102f0067466459a5a73c418501e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbdadbed31556fc20e15b837b1a29cb6') in 0.367286 seconds 
-  Import took 0.373372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Creator Kit - RPG/Audio/SFX_InsideFootstep01.ogg
-  artifactKey: Guid(d43c5e96d9cfe9b478c8fef306d1c418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Audio/SFX_InsideFootstep01.ogg using Guid(d43c5e96d9cfe9b478c8fef306d1c418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d6181fb7e5e7b935907780cc0a6cd4') in 0.009072 seconds 
-  Import took 0.011895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Creator Kit - RPG/Audio/SFX_InsideFootstep02.ogg
-  artifactKey: Guid(bca5cb7c53133a04b863789ab7145691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Audio/SFX_InsideFootstep02.ogg using Guid(bca5cb7c53133a04b863789ab7145691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762797bce3891a107d9db387100a3e08') in 0.007828 seconds 
-  Import took 0.010884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Creator Kit - RPG/Audio/SFX_GrassFootstep01.ogg
-  artifactKey: Guid(b9f95e88528322d45ab468493fda9ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Audio/SFX_GrassFootstep01.ogg using Guid(b9f95e88528322d45ab468493fda9ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346e398cf16f9dba640418d18c755a53') in 0.007160 seconds 
-  Import took 0.009830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Creator Kit - RPG/Audio/SFX_SandFootstep03.ogg
-  artifactKey: Guid(09d8499c275f57b4f92d20f3dd046823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Audio/SFX_SandFootstep03.ogg using Guid(09d8499c275f57b4f92d20f3dd046823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf108068ff071d2f2311b534c638f218') in 0.007215 seconds 
-  Import took 0.010338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Creator Kit - RPG/Audio/SFX_UINegative.ogg
-  artifactKey: Guid(33479c043d2e80542bcff1bba0d7aa86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Audio/SFX_UINegative.ogg using Guid(33479c043d2e80542bcff1bba0d7aa86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a382a22fdfd7daab5858eddd2f805c53') in 0.008428 seconds 
-  Import took 0.011655 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Creator Kit - RPG/Audio/SFX_UIConfirm.ogg
-  artifactKey: Guid(4352d1e8bbb9cb442bb61f248d9f4cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Audio/SFX_UIConfirm.ogg using Guid(4352d1e8bbb9cb442bb61f248d9f4cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9312304af1b121f9f0654f9efcee7b0e') in 0.009044 seconds 
-  Import took 0.012310 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Creator Kit - RPG/Audio/SFX_Voice01_08.ogg
-  artifactKey: Guid(ce8cc5626c5d7274aa7d1f7c03746429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Audio/SFX_Voice01_08.ogg using Guid(ce8cc5626c5d7274aa7d1f7c03746429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9899d90892de35b10c81223b9ae356d3') in 0.007953 seconds 
-  Import took 0.011221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Creator Kit - RPG/Audio/SFX_Voice01_07.ogg
-  artifactKey: Guid(5dc6e903aa825574bb02ea7d176e23ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Audio/SFX_Voice01_07.ogg using Guid(5dc6e903aa825574bb02ea7d176e23ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14de037af34fd2596305989b18ce9bae') in 0.007599 seconds 
-  Import took 0.010617 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Creator Kit - RPG/Audio/SFX_SandFootstep01.ogg
-  artifactKey: Guid(2e131117516c68c42a9eec1e25253e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Audio/SFX_SandFootstep01.ogg using Guid(2e131117516c68c42a9eec1e25253e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34885f4d9daf0d98adf2fa54e9f34e16') in 0.009161 seconds 
-  Import took 0.012017 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Creator Kit - RPG/Audio/BGM_QuestComplete.ogg
-  artifactKey: Guid(93850243ac83fbf4597b770e9f05bb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Audio/BGM_QuestComplete.ogg using Guid(93850243ac83fbf4597b770e9f05bb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9f4c52440cbc45f103e3c89fe95629') in 0.010342 seconds 
-  Import took 0.013209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Creator Kit - RPG/Audio/SFX_UINavigate.ogg
-  artifactKey: Guid(b9464d87cce98664b9bc8ebd54f6a769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Audio/SFX_UINavigate.ogg using Guid(b9464d87cce98664b9bc8ebd54f6a769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bac8b40c5b73a6d3ee16b16c571344d') in 0.007853 seconds 
-  Import took 0.011246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Creator Kit - RPG/Audio/SFX_SandFootstep02.ogg
-  artifactKey: Guid(f662c7666af885b429024de463095609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Audio/SFX_SandFootstep02.ogg using Guid(f662c7666af885b429024de463095609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e790070e958dcdfe225fe6d9331a4e4') in 0.008769 seconds 
-  Import took 0.011976 seconds .
+  path: Assets/Creator Kit - RPG/Gameplay Prefabs/Environment/Animated Tree3.prefab
+  artifactKey: Guid(ff1fc1ae0e9ca2b41ae27dcecbb8fafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - RPG/Gameplay Prefabs/Environment/Animated Tree3.prefab using Guid(ff1fc1ae0e9ca2b41ae27dcecbb8fafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3783ff11943ddb7ae33d8e01521b6b4') in 1.034114 seconds 
+  Import took 1.041083 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000212 seconds.
-  path: Assets/Creator Kit - RPG/Audio/SFX_Voice01_02.ogg
-  artifactKey: Guid(8f654c94c7f51274bbd91f149809a23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Audio/SFX_Voice01_02.ogg using Guid(8f654c94c7f51274bbd91f149809a23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30dce112d2fc6ae66901e0a48484afac') in 0.009477 seconds 
-  Import took 0.013112 seconds .
+  path: Packages/com.unity.analytics/DataPrivacy/DataPrivacyButton.prefab
+  artifactKey: Guid(71b11355001648444b41d17fd36c150d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.analytics/DataPrivacy/DataPrivacyButton.prefab using Guid(71b11355001648444b41d17fd36c150d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29afed4e068a0e8b5a16db570a537112') in 0.027076 seconds 
+  Import took 0.030360 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Creator Kit - RPG/Audio/SFX_GrassFootstep03.ogg
-  artifactKey: Guid(8c2653fdb3b7ed14b81e093ec9edf966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Audio/SFX_GrassFootstep03.ogg using Guid(8c2653fdb3b7ed14b81e093ec9edf966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf68b8ca190513061a0452bbb0ec340') in 0.012922 seconds 
-  Import took 0.015979 seconds .
+  Time since last request: 0.000214 seconds.
+  path: Assets/Creator Kit - RPG/Gameplay Prefabs/Environment/Animated Tree1.prefab
+  artifactKey: Guid(d5abc895c284ea44aaf79bc56af78601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - RPG/Gameplay Prefabs/Environment/Animated Tree1.prefab using Guid(d5abc895c284ea44aaf79bc56af78601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01fa7555f484dbc54a89dd88bfd0f9d9') in 0.012960 seconds 
+  Import took 0.016697 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Creator Kit - RPG/Audio/SFX_Voice01_06.ogg
-  artifactKey: Guid(9db5b541c35f0ff41bac242c05a5d9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Audio/SFX_Voice01_06.ogg using Guid(9db5b541c35f0ff41bac242c05a5d9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49b98ebd754efd28763d01664cf6f53') in 0.007688 seconds 
-  Import took 0.010962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Creator Kit - RPG/Audio/SFX_Voice01_05.ogg
-  artifactKey: Guid(87596260a905cb54f8a948b92464555c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Audio/SFX_Voice01_05.ogg using Guid(87596260a905cb54f8a948b92464555c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c3fd4b4508b5277034318e1b899e0d') in 0.006890 seconds 
-  Import took 0.009907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Creator Kit - RPG/Audio/BGM_PixelRPG.ogg
-  artifactKey: Guid(c6b1e4491dcc9de4dad8102c76c2b05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Audio/BGM_PixelRPG.ogg using Guid(c6b1e4491dcc9de4dad8102c76c2b05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0b31767d023ebc9b4b9879c4401ff7') in 0.012989 seconds 
-  Import took 0.016251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Creator Kit - RPG/Audio/SFX_Voice01_01.ogg
-  artifactKey: Guid(c12c9679a9c033a49bc4d8dc1d66eafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Audio/SFX_Voice01_01.ogg using Guid(c12c9679a9c033a49bc4d8dc1d66eafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3331b7872bb58d0d7b5d59803aac5245') in 0.013386 seconds 
-  Import took 0.016694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Creator Kit - RPG/Audio/SFX_GrassFootstep02.ogg
-  artifactKey: Guid(354e3255e5315484d92e71b81aea53e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Audio/SFX_GrassFootstep02.ogg using Guid(354e3255e5315484d92e71b81aea53e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f6b7da3ab7b6b2c859b5c01c3a5936') in 0.008294 seconds 
-  Import took 0.012079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Creator Kit - RPG/Audio/SFX_Voice01_04.ogg
-  artifactKey: Guid(afc52bfa55fd3234fb1fc60b7d5f549a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Audio/SFX_Voice01_04.ogg using Guid(afc52bfa55fd3234fb1fc60b7d5f549a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b788cec950a37b6ed78f8f54a334cc') in 0.009615 seconds 
-  Import took 0.013155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Creator Kit - RPG/Audio/SFX_Voice01_03.ogg
-  artifactKey: Guid(21554fbce2c5f704fa8305bf041c3082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Audio/SFX_Voice01_03.ogg using Guid(21554fbce2c5f704fa8305bf041c3082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b0ba14e3990c5f97cd1b7ef35141d5') in 0.015198 seconds 
-  Import took 0.018822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Creator Kit - RPG/Audio/SFX_InsideFootstep03.ogg
-  artifactKey: Guid(f87e8c2655f10d6438d911159343332c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Audio/SFX_InsideFootstep03.ogg using Guid(f87e8c2655f10d6438d911159343332c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ad143a70d648bfa3eb599d337e683f') in 0.009553 seconds 
-  Import took 0.012969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Creator Kit - RPG/Audio/show-1.ogg
-  artifactKey: Guid(46e6c79da3ec0f14f95bb09260978820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Audio/show-1.ogg using Guid(46e6c79da3ec0f14f95bb09260978820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795fd377b58f21872ced23f4e714b610') in 0.007277 seconds 
-  Import took 0.010689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.850042 seconds.
-  path: Assets/Creator Kit - RPG/Cutscene/Prefabs
-  artifactKey: Guid(7f4ee0f0e01ac4e04b9d39f1ad7ef07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Cutscene/Prefabs using Guid(7f4ee0f0e01ac4e04b9d39f1ad7ef07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfef8bb24be6f1116d71c9a97c3fc3ce') in 0.001074 seconds 
-  Import took 0.004818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.376960 seconds.
-  path: Assets/Creator Kit - RPG/Cutscene/Prefabs/Cutscene.prefab
-  artifactKey: Guid(59277b2399f6844aa988bef6a308e319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Cutscene/Prefabs/Cutscene.prefab using Guid(59277b2399f6844aa988bef6a308e319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d98d13894ac055cb4aef38f85d14ca') in 0.023444 seconds 
-  Import took 0.027261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.257752 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/House_9.asset
-  artifactKey: Guid(5b1834ec8bad8404d859e5301c7a475d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/House_9.asset using Guid(5b1834ec8bad8404d859e5301c7a475d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac730977b960d47474b97619c1b9aa1') in 0.289883 seconds 
-  Import took 0.295778 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertToGrass_7.asset
-  artifactKey: Guid(f2da840a2c0b2c048a42905ebbc1e1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertToGrass_7.asset using Guid(f2da840a2c0b2c048a42905ebbc1e1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e515c8cefd92bdd0010857d441672240') in 0.008939 seconds 
-  Import took 0.011715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassToDesert_0.asset
-  artifactKey: Guid(8f91612762ba7dc4494d9ea342270168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassToDesert_0.asset using Guid(8f91612762ba7dc4494d9ea342270168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bafb2237b741fbe9800fd1cc2d9c2b8') in 0.014836 seconds 
-  Import took 0.017494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertIntersections_3.asset
-  artifactKey: Guid(bb05a137f5cbc9c40bafc7baa75c1fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertIntersections_3.asset using Guid(bb05a137f5cbc9c40bafc7baa75c1fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ecbb200d3319f53fb9f319a1d1ceac0') in 0.005769 seconds 
-  Import took 0.009900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_Grass_5.asset
-  artifactKey: Guid(8ad10cb7675ea2c428b99404938e3215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_Grass_5.asset using Guid(8ad10cb7675ea2c428b99404938e3215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c57f4fb8d3467db1228304949cc510') in 0.008207 seconds 
-  Import took 0.011594 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_13.asset
-  artifactKey: Guid(790b7581e96414cc79e8825e299f24a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_13.asset using Guid(790b7581e96414cc79e8825e299f24a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3bd95bdfbef00c23ba74a30b04b78b') in 0.006487 seconds 
-  Import took 0.009569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_2.asset
-  artifactKey: Guid(3ff0b783e2fdf4977b5b4b0982aef416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_2.asset using Guid(3ff0b783e2fdf4977b5b4b0982aef416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e552b57cbb305617bf627bba0bd1146') in 0.005856 seconds 
-  Import took 0.008425 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_4.asset
-  artifactKey: Guid(9270867faf025498685a9a720cb40e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_4.asset using Guid(9270867faf025498685a9a720cb40e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0582921564a7839c2e98eef6b79cbc') in 0.006169 seconds 
-  Import took 0.010045 seconds .
+  Time since last request: 0.000254 seconds.
+  path: Assets/Creator Kit - RPG/Gameplay Prefabs/Decorations/Bush 0.prefab
+  artifactKey: Guid(13dcf6dcf8e0f442e95d8714dcc4ba15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - RPG/Gameplay Prefabs/Decorations/Bush 0.prefab using Guid(13dcf6dcf8e0f442e95d8714dcc4ba15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e294a354bb4ab92514f2db3e4f872b63') in 0.012282 seconds 
+  Import took 0.016226 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000265 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_16.asset
-  artifactKey: Guid(cc95aea81fd3446f6b3aedc65299beb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_16.asset using Guid(cc95aea81fd3446f6b3aedc65299beb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907aac661b9ff08b71a612f4f7c64790') in 0.006221 seconds 
-  Import took 0.009524 seconds .
+  path: Assets/Creator Kit - RPG/Gameplay Prefabs/Decorations/Bush 2.prefab
+  artifactKey: Guid(ba139b8176ffc426bb00fbe377dd704a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - RPG/Gameplay Prefabs/Decorations/Bush 2.prefab using Guid(ba139b8176ffc426bb00fbe377dd704a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340332b6f34780d794413035ade901a8') in 0.011817 seconds 
+  Import took 0.015672 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_9.asset
-  artifactKey: Guid(5d65eb95ee2c04058adb3baac5488106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_9.asset using Guid(5d65eb95ee2c04058adb3baac5488106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2791c4f39c3abfb4123eb97a5e4d8960') in 0.006863 seconds 
-  Import took 0.010280 seconds .
+  Time since last request: 0.000224 seconds.
+  path: Assets/Creator Kit - RPG/Gameplay Prefabs/Decorations/Bush 4.prefab
+  artifactKey: Guid(0b28bc885bfce48d6bff8900da845cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - RPG/Gameplay Prefabs/Decorations/Bush 4.prefab using Guid(0b28bc885bfce48d6bff8900da845cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25aba5960ce63ab40208168eb021eb61') in 0.010490 seconds 
+  Import took 0.013957 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_Desert_3.asset
-  artifactKey: Guid(fec15ec5d11148d438ac08460ede931d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_Desert_3.asset using Guid(fec15ec5d11148d438ac08460ede931d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614c7e5a7c68fc40ed2b3aefd4ef8a26') in 0.011100 seconds 
-  Import took 0.014301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassIntersections_3.asset
-  artifactKey: Guid(de6d4cbab9ca8794486ecc1411cc9aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassIntersections_3.asset using Guid(de6d4cbab9ca8794486ecc1411cc9aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf1a4ef23a1abcf6587d27d8c96b15f') in 0.006649 seconds 
-  Import took 0.009971 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassIntersections_4.asset
-  artifactKey: Guid(15ecb4ff973c75a4986ac4ce09fbba94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassIntersections_4.asset using Guid(15ecb4ff973c75a4986ac4ce09fbba94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f034bd6a44ae89fae83e67ece23124bd') in 0.005720 seconds 
-  Import took 0.009229 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_10.asset
-  artifactKey: Guid(20f7bf108b9444fdab79034eebf2b0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_10.asset using Guid(20f7bf108b9444fdab79034eebf2b0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef25c20ab641f896557af1740209abd7') in 0.006025 seconds 
-  Import took 0.008884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_Desert_4.asset
-  artifactKey: Guid(52de7f84af3b5f946a58e36df7b76e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_Desert_4.asset using Guid(52de7f84af3b5f946a58e36df7b76e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ea5c5375ab293fecbd6e5cc785a0ee') in 0.010088 seconds 
-  Import took 0.013858 seconds .
+  Time since last request: 0.000252 seconds.
+  path: Assets/Creator Kit - RPG/Gameplay Prefabs/Environment/Animated Tree2.prefab
+  artifactKey: Guid(bac955241638c274aabfa061ef026008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - RPG/Gameplay Prefabs/Environment/Animated Tree2.prefab using Guid(bac955241638c274aabfa061ef026008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d505137d64db2843259dedf46bcc50') in 0.012901 seconds 
+  Import took 0.017979 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000244 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_Grass_0.asset
-  artifactKey: Guid(239cddbc0f5a67f4fa92e6d532e324d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_Grass_0.asset using Guid(239cddbc0f5a67f4fa92e6d532e324d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731373a285a3fc4cb921e9d2952cae37') in 0.011937 seconds 
-  Import took 0.015602 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_27.asset
-  artifactKey: Guid(9c21ea9b0e2a148f1afdc8f9da209895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_27.asset using Guid(9c21ea9b0e2a148f1afdc8f9da209895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e55a2b148d34b011baf6751e5a1790f') in 0.006462 seconds 
-  Import took 0.009641 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassIntersections_5.asset
-  artifactKey: Guid(3717692a9313db845ad75f5412cef530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassIntersections_5.asset using Guid(3717692a9313db845ad75f5412cef530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc5b8432769f1c018052ff8f511f2a1') in 0.006828 seconds 
-  Import took 0.010018 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles.prefab
-  artifactKey: Guid(66a9d607713234dcdad67f06eef62205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles.prefab using Guid(66a9d607713234dcdad67f06eef62205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b927665955d520ec87d4015a12dc1de9') in 0.047316 seconds 
-  Import took 0.053242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_26.asset
-  artifactKey: Guid(da1b9a3b73e3e41d48c5657049496a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_26.asset using Guid(da1b9a3b73e3e41d48c5657049496a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059d1d98319c5463e4365c797ff857a9') in 0.006358 seconds 
-  Import took 0.009775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_Desert_8.asset
-  artifactKey: Guid(3efb6e5114a4a4a40b8096fc4aa62ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_Desert_8.asset using Guid(3efb6e5114a4a4a40b8096fc4aa62ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4bef9d5fc617ee1b38ce14c23f29adb') in 0.007543 seconds 
-  Import took 0.010364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertToGrass_0.asset
-  artifactKey: Guid(ba5b06d36d745ad49b9842d44324b1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertToGrass_0.asset using Guid(ba5b06d36d745ad49b9842d44324b1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f050bcf6de6a574755f923af7f98164') in 0.008765 seconds 
-  Import took 0.011760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_Desert_7.asset
-  artifactKey: Guid(41be42fd76445a247918e2bdd0c76c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_Desert_7.asset using Guid(41be42fd76445a247918e2bdd0c76c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30413ce25ee58b9560d3a82598f04a49') in 0.007679 seconds 
-  Import took 0.010332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertToGrass_8.asset
-  artifactKey: Guid(36199b8e45c86e1469192bd8bfada664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertToGrass_8.asset using Guid(36199b8e45c86e1469192bd8bfada664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b79e3ea3f6e1c3960d0bacf22df931') in 0.007431 seconds 
-  Import took 0.010129 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassToDesert_4.asset
-  artifactKey: Guid(e418889d7eb2bae44a56c717711d6f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassToDesert_4.asset using Guid(e418889d7eb2bae44a56c717711d6f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a4c7597c0362ee8b2a42bcb4eb6dfa') in 0.009045 seconds 
-  Import took 0.013479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_15.asset
-  artifactKey: Guid(bdeebd9be0c964a62ae1384060719ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_15.asset using Guid(bdeebd9be0c964a62ae1384060719ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266ebf46ad7b11f72f591ee787a3e22f') in 0.008602 seconds 
-  Import took 0.012607 seconds .
+  path: Assets/Creator Kit - RPG/Gameplay Prefabs/Environment/Leaves.prefab
+  artifactKey: Guid(d377c9c5cc7e8448e9087960e6c26aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - RPG/Gameplay Prefabs/Environment/Leaves.prefab using Guid(d377c9c5cc7e8448e9087960e6c26aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084e306330e8467d7fc4c8eceed7b475') in 0.011019 seconds 
+  Import took 0.015092 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000219 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_Grass_6.asset
-  artifactKey: Guid(7b0c2a38d81cc7048b2cc925cdebaa46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_Grass_6.asset using Guid(7b0c2a38d81cc7048b2cc925cdebaa46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086641b0a2c0b5baa45bb3440cf94841') in 0.010960 seconds 
-  Import took 0.015443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_11.asset
-  artifactKey: Guid(40fdc00ccf0324477a364b41a9ce26df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_11.asset using Guid(40fdc00ccf0324477a364b41a9ce26df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b7ca6cff62a7a72df3e876b092d7de') in 0.008450 seconds 
-  Import took 0.013735 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_23.asset
-  artifactKey: Guid(66224a90294984b609c9fd9e494e930a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_23.asset using Guid(66224a90294984b609c9fd9e494e930a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f6e583290ad9c3909d18972c8fa2af') in 0.007490 seconds 
-  Import took 0.012403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_22.asset
-  artifactKey: Guid(9e1a5bff0887f4e42bf12445fa2f1992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_22.asset using Guid(9e1a5bff0887f4e42bf12445fa2f1992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa53cd993354caf903663bfa6fa51b5') in 0.006623 seconds 
-  Import took 0.010162 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_12.asset
-  artifactKey: Guid(4988ca5540e2046bfb41a699f07580e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_12.asset using Guid(4988ca5540e2046bfb41a699f07580e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d06a8ce83b337c1a588f22a65837a82') in 0.006929 seconds 
-  Import took 0.010478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_5.asset
-  artifactKey: Guid(21d632a62c1fb4f5c86275cbd9911b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_5.asset using Guid(21d632a62c1fb4f5c86275cbd9911b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8466865176ddd8476607812a0cb5360f') in 0.006249 seconds 
-  Import took 0.010042 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertIntersections_7.asset
-  artifactKey: Guid(1313c5891d378b74c9e417a146b6fb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertIntersections_7.asset using Guid(1313c5891d378b74c9e417a146b6fb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7995606710114839eab0c1400b9855') in 0.005990 seconds 
-  Import took 0.008769 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_Desert_1.asset
-  artifactKey: Guid(a5bc2c8e30c5f2b498bf982c0fcd580f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_Desert_1.asset using Guid(a5bc2c8e30c5f2b498bf982c0fcd580f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034bf0a2aef7b6dcc207c9974885e3c3') in 0.011409 seconds 
-  Import took 0.015243 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_6.asset
-  artifactKey: Guid(15cae95d8901341a1a8ebebc2fca9e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_6.asset using Guid(15cae95d8901341a1a8ebebc2fca9e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61043ff6a40ca055244eebc3dafae13e') in 0.008587 seconds 
-  Import took 0.013826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_Grass_7.asset
-  artifactKey: Guid(33fd426a38eadf747b4c5d703fd402aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_Grass_7.asset using Guid(33fd426a38eadf747b4c5d703fd402aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5e654e1586ddb9d393eba0b056e8db') in 0.008649 seconds 
-  Import took 0.012577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassToDesert_2.asset
-  artifactKey: Guid(b288a0518e927094c8f439eb58cac309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassToDesert_2.asset using Guid(b288a0518e927094c8f439eb58cac309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33dbb891e2b8ea4a8e16c019069eff0f') in 0.009958 seconds 
-  Import took 0.012985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassToDesert_7.asset
-  artifactKey: Guid(07e603930f95dcf4481eab023b3de42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassToDesert_7.asset using Guid(07e603930f95dcf4481eab023b3de42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df56546a264b03929eb1a19c48f4246d') in 0.011372 seconds 
-  Import took 0.015139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassIntersections_7.asset
-  artifactKey: Guid(b077b06663105a2468d1e0dff159a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassIntersections_7.asset using Guid(b077b06663105a2468d1e0dff159a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5294ce658d6db5e290b69f4e2855e9a8') in 0.008611 seconds 
-  Import took 0.011951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000406 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_Grass_4.asset
-  artifactKey: Guid(5f11ab3908a8bc3489f237582adaef15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_Grass_4.asset using Guid(5f11ab3908a8bc3489f237582adaef15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4f480e915204c36d0665e29560a037') in 0.009616 seconds 
-  Import took 0.012888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_3.asset
-  artifactKey: Guid(51640359f3a4749f89d70aa3b40b0d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_3.asset using Guid(51640359f3a4749f89d70aa3b40b0d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039d348c95c889cf15b0934f3558e55b') in 0.008635 seconds 
-  Import took 0.011849 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertIntersections_2.asset
-  artifactKey: Guid(3a320c147de5e604ca835bf759866a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertIntersections_2.asset using Guid(3a320c147de5e604ca835bf759866a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98229b39cce92900a008bf6cfd92df9c') in 0.008414 seconds 
-  Import took 0.011746 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassIntersections_8.asset
-  artifactKey: Guid(2c1c3fa13f9a0bf45ac895f2eec30036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassIntersections_8.asset using Guid(2c1c3fa13f9a0bf45ac895f2eec30036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534dd2738a7e8e8958f8fa264c4cb166') in 0.007445 seconds 
-  Import took 0.012741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_Grass_1.asset
-  artifactKey: Guid(342e493c5fcb7e3458b26006b2af7ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_Grass_1.asset using Guid(342e493c5fcb7e3458b26006b2af7ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7246572a7a33059e8a612cde8a4471c7') in 0.012316 seconds 
-  Import took 0.016839 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_Grass_3.asset
-  artifactKey: Guid(4bc4ce7c4271cfe4a9a8f6287818af2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_Grass_3.asset using Guid(4bc4ce7c4271cfe4a9a8f6287818af2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfd34d184f8c58368969ea901cdb398') in 0.009771 seconds 
-  Import took 0.013456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertToGrass_5.asset
-  artifactKey: Guid(d27892de92757c3489073bcdb33164e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertToGrass_5.asset using Guid(d27892de92757c3489073bcdb33164e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0693ff7ea3b15e1fb5e744896108ef91') in 0.010044 seconds 
-  Import took 0.013232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassToDesert_8.asset
-  artifactKey: Guid(47fc1172d74b61f49b9ef2fc824bca98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassToDesert_8.asset using Guid(47fc1172d74b61f49b9ef2fc824bca98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73abc797c959c74b18b99f75d0501118') in 0.008780 seconds 
-  Import took 0.011631 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_0.asset
-  artifactKey: Guid(5b3257d3114694e42b3b839c0dbb9720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_0.asset using Guid(5b3257d3114694e42b3b839c0dbb9720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cecbd6170dae37fd6934109efc60867') in 0.007735 seconds 
-  Import took 0.011901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertIntersections_6.asset
-  artifactKey: Guid(b7af6277eff44f646b4abfab96103e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertIntersections_6.asset using Guid(b7af6277eff44f646b4abfab96103e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d93c86303ee057038a00d013464338') in 0.008909 seconds 
-  Import took 0.012567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassToDesert_1.asset
-  artifactKey: Guid(e8317418c1d7b834fbc362fff9b34af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassToDesert_1.asset using Guid(e8317418c1d7b834fbc362fff9b34af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbad6b82623f12634e1785b06849a53d') in 0.011390 seconds 
-  Import took 0.015413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertToGrass_2.asset
-  artifactKey: Guid(606dbbe833fc4514a90eb008f21746a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertToGrass_2.asset using Guid(606dbbe833fc4514a90eb008f21746a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1762f63f22e79a536c412714023d85d0') in 0.008768 seconds 
-  Import took 0.013625 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_25.asset
-  artifactKey: Guid(84daf7cf8603a4b54aa63b88c84d27cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_25.asset using Guid(84daf7cf8603a4b54aa63b88c84d27cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0adf8313295ef67dfba9ee36488839') in 0.006156 seconds 
-  Import took 0.009905 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertIntersections_8.asset
-  artifactKey: Guid(eb8a5031d252d074e95433e80efe090c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertIntersections_8.asset using Guid(eb8a5031d252d074e95433e80efe090c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951bdae32650766171a9213ee3449ca8') in 0.005778 seconds 
-  Import took 0.008638 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertIntersections_4.asset
-  artifactKey: Guid(19629882916d78a4ba5a69977ec42d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertIntersections_4.asset using Guid(19629882916d78a4ba5a69977ec42d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a095ab01acf0450a0c6676b4210db9') in 0.005634 seconds 
-  Import took 0.008131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertToGrass_6.asset
-  artifactKey: Guid(e903197964f41c04dab036730b651fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertToGrass_6.asset using Guid(e903197964f41c04dab036730b651fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b281bea4ff1b13351420b952215f9bf') in 0.009442 seconds 
-  Import took 0.013509 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_1.asset
-  artifactKey: Guid(eda02a6c6de1d4cb1b915e96b0eaae17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_1.asset using Guid(eda02a6c6de1d4cb1b915e96b0eaae17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1c8cedf91bd6624d2849b7d38c7248') in 0.008571 seconds 
-  Import took 0.012241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_17.asset
-  artifactKey: Guid(da3e77f259a30469881d0d3e099592bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_17.asset using Guid(da3e77f259a30469881d0d3e099592bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97214ba52bc0d4b4ddc9ccd6ee69652') in 0.008927 seconds 
-  Import took 0.012995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassToDesert_3.asset
-  artifactKey: Guid(13d3f1ed8ae689c4685f96ccc99991c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassToDesert_3.asset using Guid(13d3f1ed8ae689c4685f96ccc99991c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfaf1443a30be5cd79f109f5f061ec1e') in 0.009779 seconds 
-  Import took 0.013071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_20.asset
-  artifactKey: Guid(73df5df9dcb9a4bc4b85b759554c0d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_20.asset using Guid(73df5df9dcb9a4bc4b85b759554c0d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36bbe8553eda59484aef9e95b9f66512') in 0.007168 seconds 
-  Import took 0.011319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_18.asset
-  artifactKey: Guid(781fb24ab88294fc09fcf363c308d2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_18.asset using Guid(781fb24ab88294fc09fcf363c308d2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6b906eb0fb3c4c56b8e55909b28719') in 0.008092 seconds 
-  Import took 0.012401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassIntersections_1.asset
-  artifactKey: Guid(1b18bd797330a1149ac0c56462e3a5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassIntersections_1.asset using Guid(1b18bd797330a1149ac0c56462e3a5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b823a79906be71f1624e67e89b1e83a0') in 0.007836 seconds 
-  Import took 0.013752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassToDesert_5.asset
-  artifactKey: Guid(07ea74f3206362b4d99bc7c9c0870c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassToDesert_5.asset using Guid(07ea74f3206362b4d99bc7c9c0870c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9d46890e172ee8c7c8e51e978c7e39') in 0.010734 seconds 
-  Import took 0.014929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_19.asset
-  artifactKey: Guid(51d0d8eb656544ca7b66cf47c7b0056b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_19.asset using Guid(51d0d8eb656544ca7b66cf47c7b0056b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9a336416ce205b3af937289a331226') in 0.006311 seconds 
-  Import took 0.010400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_7.asset
-  artifactKey: Guid(7bdd8853597a844999dc7cc451ac45b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_7.asset using Guid(7bdd8853597a844999dc7cc451ac45b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add605555aecaf3aa0b38be59060eb05') in 0.006948 seconds 
-  Import took 0.011266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_Grass_8.asset
-  artifactKey: Guid(32bbdf8db629c6a46952a762b6b39c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_Grass_8.asset using Guid(32bbdf8db629c6a46952a762b6b39c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc9eabe1a28f72422d71fd621d09002') in 0.009159 seconds 
-  Import took 0.011953 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertIntersections_0.asset
-  artifactKey: Guid(7212dcdc11ce0ca4c9279fa31f85b32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertIntersections_0.asset using Guid(7212dcdc11ce0ca4c9279fa31f85b32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66516b51b14cd3f26ff0620ebf360b68') in 0.006034 seconds 
-  Import took 0.008767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_24.asset
-  artifactKey: Guid(c08f69f89c8264e79af0d4450d5da550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_24.asset using Guid(c08f69f89c8264e79af0d4450d5da550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76845d1426a927b9a3af97aa15c2ba01') in 0.006614 seconds 
-  Import took 0.009934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_Desert_2.asset
-  artifactKey: Guid(2310ce13012c17343949c267b9b9e558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_Desert_2.asset using Guid(2310ce13012c17343949c267b9b9e558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543bc6bb63b62ec0751d25f23a72c57b') in 0.010073 seconds 
-  Import took 0.013462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_Desert_5.asset
-  artifactKey: Guid(f3ca2822f2b038f458dc5d8e6d48d4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_Desert_5.asset using Guid(f3ca2822f2b038f458dc5d8e6d48d4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b512fdd21f353c51a280827e9248c66a') in 0.008969 seconds 
-  Import took 0.012384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_Desert_0.asset
-  artifactKey: Guid(4e24a674490620c4eb878a731a865d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_Desert_0.asset using Guid(4e24a674490620c4eb878a731a865d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd0fc065d28feba8b044c1b58d6df95') in 0.009960 seconds 
-  Import took 0.013147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_8.asset
-  artifactKey: Guid(cc0ee69062dcc4267b770e1c2cf0a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_8.asset using Guid(cc0ee69062dcc4267b770e1c2cf0a819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810ed1d0f79c4b6cd93c248bf917d826') in 0.006207 seconds 
-  Import took 0.009210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_14.asset
-  artifactKey: Guid(e7efdc69657e9484aa970009c9506a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_14.asset using Guid(e7efdc69657e9484aa970009c9506a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879d8bac5e65a7e273bdd6bcba7d042a') in 0.005895 seconds 
-  Import took 0.009912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassIntersections_0.asset
-  artifactKey: Guid(68e874c2966d7f940bfd5bce02d641cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassIntersections_0.asset using Guid(68e874c2966d7f940bfd5bce02d641cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebda5e02727e97d807cc9675a2e19b6') in 0.006477 seconds 
-  Import took 0.010491 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_21.asset
-  artifactKey: Guid(d0c90529228ee4ff3a949f80e4f4a816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/treesv6_0_21.asset using Guid(d0c90529228ee4ff3a949f80e4f4a816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7cf24d4e95c98b5ed4bd564496b0a40') in 0.006229 seconds 
-  Import took 0.009691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertToGrass_1.asset
-  artifactKey: Guid(1f5268949291cb8469782134b597f698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertToGrass_1.asset using Guid(1f5268949291cb8469782134b597f698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97baef78b83042536b65df9c772b93bb') in 0.012196 seconds 
-  Import took 0.016420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertIntersections_1.asset
-  artifactKey: Guid(62a322a6ab8d5724ab9bbc1a8789410c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertIntersections_1.asset using Guid(62a322a6ab8d5724ab9bbc1a8789410c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465137ccd1a5c1898b84a3c80067c170') in 0.007515 seconds 
-  Import took 0.011186 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertIntersections_5.asset
-  artifactKey: Guid(a88af37fcc621c64d89235543770dff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertIntersections_5.asset using Guid(a88af37fcc621c64d89235543770dff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa36263471b8ef891763e2e08e4be6e6') in 0.006905 seconds 
-  Import took 0.011918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_Grass_2.asset
-  artifactKey: Guid(d122618343d6bef4d8c6172d38c7e959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_Grass_2.asset using Guid(d122618343d6bef4d8c6172d38c7e959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd296183566143b1b54a328d3ce38c71b') in 0.009428 seconds 
-  Import took 0.012530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertToGrass_4.asset
-  artifactKey: Guid(795b4774b6a587847a6b5c03b75ebdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertToGrass_4.asset using Guid(795b4774b6a587847a6b5c03b75ebdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdba79963298cceda42446c2003fe01a') in 0.008760 seconds 
-  Import took 0.012607 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassIntersections_2.asset
-  artifactKey: Guid(80d3b46a84ea512489f62807d6d4c2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassIntersections_2.asset using Guid(80d3b46a84ea512489f62807d6d4c2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc854c7a2ca5527dbac0fef010da4e5e') in 0.006823 seconds 
-  Import took 0.010307 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_Desert_6.asset
-  artifactKey: Guid(bf4b827a00439fa4eb2ef36369f6158d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_Desert_6.asset using Guid(bf4b827a00439fa4eb2ef36369f6158d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8a840d77393fd865a6d5d66c6e8d74') in 0.010194 seconds 
-  Import took 0.013545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassIntersections_6.asset
-  artifactKey: Guid(ec6e4703f5dd402409700e53961d9326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassIntersections_6.asset using Guid(ec6e4703f5dd402409700e53961d9326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be4824f18f041f560c6de3a04e973d1') in 0.007555 seconds 
-  Import took 0.012357 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassToDesert_6.asset
-  artifactKey: Guid(982a0026d07ad1845a66c24b3f14026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_GrassToDesert_6.asset using Guid(982a0026d07ad1845a66c24b3f14026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ad084be6137069af59c842ec945bf8') in 0.010550 seconds 
-  Import took 0.014200 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertToGrass_3.asset
-  artifactKey: Guid(7a6e26891790fbf44b87eea135a9367e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Tiles/Tiles_DesertToGrass_3.asset using Guid(7a6e26891790fbf44b87eea135a9367e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf6ef28e28d2aef402e317cc40a833a') in 0.012857 seconds 
-  Import took 0.016410 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.516291 seconds.
-  path: Assets/Creator Kit - RPG/Art/TileMapPalettes/Line Brush.asset
-  artifactKey: Guid(88a229bcb49b14276b7179f46cec694d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/TileMapPalettes/Line Brush.asset using Guid(88a229bcb49b14276b7179f46cec694d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec18e9551013138d643562242b40381') in 0.007816 seconds 
-  Import took 0.011506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.941021 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/UI/DialogueBar.psd
-  artifactKey: Guid(864d53185d49afd4ba160601369e6557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/UI/DialogueBar.psd using Guid(864d53185d49afd4ba160601369e6557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ba6a7aab944cca44ff6359df084c68') in 1.000665 seconds 
-  Import took 1.007047 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022112 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Floors/Tiles_DarkGrasstoGrass.png
-  artifactKey: Guid(c0a5a87d19188f54ebc44df12c0ef2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Floors/Tiles_DarkGrasstoGrass.png using Guid(c0a5a87d19188f54ebc44df12c0ef2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd155ecb06cd07401d7e7f25f9710426') in 0.035378 seconds 
-  Import took 0.038836 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Floors/Tiles_GrassVariant.png
-  artifactKey: Guid(84497fb83bb127248be9d1bc49bfd586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Floors/Tiles_GrassVariant.png using Guid(84497fb83bb127248be9d1bc49bfd586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5198bed34e2073af04787fdf84fb82c') in 0.029413 seconds 
-  Import took 0.032226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Floors/Tiles_Grass.png
-  artifactKey: Guid(f0c5dcd8670748f44885d4dd86ca8c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Floors/Tiles_Grass.png using Guid(f0c5dcd8670748f44885d4dd86ca8c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5c428151fe0e8f0c81036ab7a4f079') in 0.029493 seconds 
-  Import took 0.032456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Floors/Tiles_DesertToGrass.png
-  artifactKey: Guid(e1a1413c04362fd45b5c32ba9200e42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Floors/Tiles_DesertToGrass.png using Guid(e1a1413c04362fd45b5c32ba9200e42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f254fee99eee2a948e9b88b0f659261f') in 0.027779 seconds 
-  Import took 0.030679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Floors/Tiles_Desert.png
-  artifactKey: Guid(3fee7df828e6f284bbcf208bce9c5e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Floors/Tiles_Desert.png using Guid(3fee7df828e6f284bbcf208bce9c5e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236eed3849679f3349a139909cae5909') in 0.038434 seconds 
-  Import took 0.041580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Floors/Tiles_GrassToDesert.png
-  artifactKey: Guid(78ad6eb3988a8e440bbf2a9ecc2d918f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Floors/Tiles_GrassToDesert.png using Guid(78ad6eb3988a8e440bbf2a9ecc2d918f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00e2985d6fa634a11a5cea69b5ed169') in 0.044345 seconds 
-  Import took 0.048234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.696783 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Environment/Materials/Cloud.mat
-  artifactKey: Guid(060c5795efb72534e9eed64c74d28ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Environment/Materials/Cloud.mat using Guid(060c5795efb72534e9eed64c74d28ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde1f3349ea2285820b325af09098a22') in 0.011088 seconds 
-  Import took 0.014533 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Environment/Materials/Cloud2.mat
-  artifactKey: Guid(202f3e0ceb662494f8a83201d709cd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Environment/Materials/Cloud2.mat using Guid(202f3e0ceb662494f8a83201d709cd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8240b60f89dea8a879aade239e5c496') in 0.014762 seconds 
-  Import took 0.017852 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Environment/Materials/House.mat
-  artifactKey: Guid(0b61a0a78d8d27940bcc5a1c826c60d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Environment/Materials/House.mat using Guid(0b61a0a78d8d27940bcc5a1c826c60d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7a3f1891bfa8f16e96a61cbf16048c') in 0.011681 seconds 
-  Import took 0.015154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Environment/Materials/HouseRoof.mat
-  artifactKey: Guid(94679678085550f4ab8e2c8b67434d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Environment/Materials/HouseRoof.mat using Guid(94679678085550f4ab8e2c8b67434d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437055a45f7208cc719ccb478666cfca') in 0.013627 seconds 
-  Import took 0.017356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.602763 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Characters/Characters01_AnimationSheet.png
-  artifactKey: Guid(f22540e8ea335034b92c27795aa254c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Characters/Characters01_AnimationSheet.png using Guid(f22540e8ea335034b92c27795aa254c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c65d05f72d247ba55e960df18f12988') in 0.169422 seconds 
-  Import took 0.173413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Characters/Characters02_AnimationSheet.png
-  artifactKey: Guid(3f198c94b65508c44a32b4b4072bb419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Characters/Characters02_AnimationSheet.png using Guid(3f198c94b65508c44a32b4b4072bb419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b58b337f9a468caac21d36dda7ff43') in 0.154863 seconds 
-  Import took 0.158184 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.601433 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_HighGrass_Sheet.png
-  artifactKey: Guid(41a5838cb902bfa43b3d51f653cd804a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_HighGrass_Sheet.png using Guid(41a5838cb902bfa43b3d51f653cd804a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f239e2619b0291e96646edd8aff698ff') in 0.191064 seconds 
-  Import took 0.194628 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_WaterCorners_Sheet.png
-  artifactKey: Guid(cb2c6dcd19a1c244c9fcc9bd04cebd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_WaterCorners_Sheet.png using Guid(cb2c6dcd19a1c244c9fcc9bd04cebd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24162ab9f5b538f8d5678504de91adcd') in 0.098076 seconds 
-  Import took 0.100899 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_Leaves_Sheet.png
-  artifactKey: Guid(96e993a3f475b384f845f47980d6d932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_Leaves_Sheet.png using Guid(96e993a3f475b384f845f47980d6d932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15cf2904200e9bb4203f8f68cff097f6') in 0.028596 seconds 
-  Import took 0.031439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_Water_Sheet.png
-  artifactKey: Guid(aaa735c5fdc695d4691e911ab4338879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_Water_Sheet.png using Guid(aaa735c5fdc695d4691e911ab4338879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab8dec9cfde857bba7d1717c16b5f3b') in 0.224083 seconds 
-  Import took 0.227899 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_Tree1_Sheet.png
-  artifactKey: Guid(c12a9ef0e75f18949a86a10822cf29f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_Tree1_Sheet.png using Guid(c12a9ef0e75f18949a86a10822cf29f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24cbd899e82f4a2b090cd34307c9bf41') in 0.042221 seconds 
-  Import took 0.044703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_Smoke_Sheet.png
-  artifactKey: Guid(5cc535ba862941440a276a5629cd0391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_Smoke_Sheet.png using Guid(5cc535ba862941440a276a5629cd0391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55c6b3a9357c5ea140b821be1491d2e') in 0.031670 seconds 
-  Import took 0.034610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_Tree2_Sheet.png
-  artifactKey: Guid(4c4775fa3485eda4197558b5d1206d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_Tree2_Sheet.png using Guid(4c4775fa3485eda4197558b5d1206d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9447bdc245201f555f9b6ba388c97c29') in 0.046623 seconds 
-  Import took 0.051909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_Tree3_Sheet.png
-  artifactKey: Guid(12d14b4f7de20ff4da9bc415c17c4162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_Tree3_Sheet.png using Guid(12d14b4f7de20ff4da9bc415c17c4162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9201b597737bc5968e55da8f0ef34e30') in 0.040303 seconds 
-  Import took 0.044849 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.301407 seconds.
-  path: Assets/Creator Kit - RPG/Art/Animators/Archer-Override.overrideController
-  artifactKey: Guid(7ee3425d802434ff69fadaff765bcb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Animators/Archer-Override.overrideController using Guid(7ee3425d802434ff69fadaff765bcb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2839333629adf5db87fa891d258c5d5e') in 0.170946 seconds 
-  Import took 0.177053 seconds .
+  path: Assets/Creator Kit - RPG/Gameplay Prefabs/Decorations/Bush 3.prefab
+  artifactKey: Guid(8ad5c786eb7b149c09ecc04090b5087d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - RPG/Gameplay Prefabs/Decorations/Bush 3.prefab using Guid(8ad5c786eb7b149c09ecc04090b5087d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4e89a1ac591045bd3ce9c2a9a451ca') in 0.010138 seconds 
+  Import took 0.013682 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000247 seconds.
-  path: Assets/Creator Kit - RPG/Art/Animators/Thief-Override.overrideController
-  artifactKey: Guid(7bfb43d7068f94aff8f20e9a7916bee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Animators/Thief-Override.overrideController using Guid(7bfb43d7068f94aff8f20e9a7916bee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e40a32902d4baf959428fc266823379') in 0.008214 seconds 
-  Import took 0.011096 seconds .
+  path: Assets/Creator Kit - RPG/Gameplay Prefabs/Decorations/Bush 1.prefab
+  artifactKey: Guid(71ba34d6d86b0486daec9d252186e8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creator Kit - RPG/Gameplay Prefabs/Decorations/Bush 1.prefab using Guid(71ba34d6d86b0486daec9d252186e8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75640fc830d4b208b131358ced55d30') in 0.011828 seconds 
+  Import took 0.015528 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Creator Kit - RPG/Art/Animators/Warrior-Override.overrideController
-  artifactKey: Guid(3caa1e5e0e6c343d69793b2b5dd95939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Creator Kit - RPG/Art/Animators/Warrior-Override.overrideController using Guid(3caa1e5e0e6c343d69793b2b5dd95939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00e013ddf315690a48b51d535616300') in 0.007364 seconds 
-  Import took 0.010492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.152530 seconds.
-  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
-  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9cb37c357dc7384471fc46249dfa427') in 0.017249 seconds 
-  Import took 0.021436 seconds .
+  Time since last request: 0.000280 seconds.
+  path: Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab
+  artifactKey: Guid(c116b7497ab8ca34c9188965d4295e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab using Guid(c116b7497ab8ca34c9188965d4295e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e5402df3ba6997afeb4e074ac5eb80') in 0.014143 seconds 
+  Import took 0.017858 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003702 seconds.
+Registered in 0.002279 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.276 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1276ms)
-		BeginReloadAssembly (153ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (80ms)
-		EndReloadAssembly (1054ms)
-			LoadAssemblies (92ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (424ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (356ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (229ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 223.8 MB.
-System memory in use after: 223.9 MB.
-
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2442.
-Total: 2.795815 ms (FindLiveObjects: 0.138535 ms CreateObjectMapping: 0.063217 ms MarkObjects: 2.563406 ms  DeleteObjects: 0.029968 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005311 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.323 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1324ms)
-		BeginReloadAssembly (129ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (61ms)
-		EndReloadAssembly (1118ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (379ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (450ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (317ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 224.0 MB.
-System memory in use after: 224.2 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2444.
-Total: 4.516690 ms (FindLiveObjects: 0.179181 ms CreateObjectMapping: 0.085977 ms MarkObjects: 4.210526 ms  DeleteObjects: 0.039619 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003916 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.273 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1273ms)
-		BeginReloadAssembly (135ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (66ms)
-		EndReloadAssembly (1063ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (406ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (372ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (241ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 224.2 MB.
-System memory in use after: 224.3 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2446.
-Total: 2.833119 ms (FindLiveObjects: 0.139844 ms CreateObjectMapping: 0.059260 ms MarkObjects: 2.617754 ms  DeleteObjects: 0.015533 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002453 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.078 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1078ms)
-		BeginReloadAssembly (125ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (892ms)
-			LoadAssemblies (75ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (341ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (313ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (203ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 224.4 MB.
-System memory in use after: 224.5 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2448.
-Total: 2.860201 ms (FindLiveObjects: 0.146317 ms CreateObjectMapping: 0.054759 ms MarkObjects: 2.642927 ms  DeleteObjects: 0.015490 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002268 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.001 seconds
+- Completed reload, in  1.122 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1001ms)
-		BeginReloadAssembly (124ms)
+	ReloadAssembly (1122ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (816ms)
-			LoadAssemblies (72ms)
+		EndReloadAssembly (928ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (301ms)
+			SetupTypeCache (352ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (292ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (318ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (189ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (201ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 224.6 MB.
-System memory in use after: 224.7 MB.
+System memory in use before: 189.9 MB.
+System memory in use after: 190.1 MB.
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2450.
-Total: 2.666670 ms (FindLiveObjects: 0.141938 ms CreateObjectMapping: 0.053769 ms MarkObjects: 2.456515 ms  DeleteObjects: 0.013884 ms)
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2378.
+Total: 2.938848 ms (FindLiveObjects: 0.148869 ms CreateObjectMapping: 0.066073 ms MarkObjects: 2.702258 ms  DeleteObjects: 0.020905 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
